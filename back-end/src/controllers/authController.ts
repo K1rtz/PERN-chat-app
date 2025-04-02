@@ -59,7 +59,6 @@ export const login = async (req: Request, res: Response) : Promise<any> => {
         if(!isPasswordCorrect){
             return res.status(400).json({error: "Invalid password"});
         }
-
         generateToken(user.id, res);
         res.status(200).json({
             id: user.id,
