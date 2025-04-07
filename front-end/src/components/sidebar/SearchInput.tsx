@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import useGetConversations from "../../hooks/useGetConversations";
 import toast from "react-hot-toast";
