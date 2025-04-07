@@ -37,6 +37,7 @@ export const AuthContextProvider = ({children}:{children: ReactNode}) => {
                 if(!res.ok){
                     throw new Error(data.message);
                 }
+                setAuthUser(data);
             } catch (error) {
                 console.log(error)
             }finally{
