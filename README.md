@@ -1,6 +1,7 @@
 This application is a simple real-time chat system built using the PERN stack, featuring user registration, login, live messaging, and presence status (online/offline).
 
 🛠 Technologies
+
 Frontend: React, TailwindCSS
 
 Backend: Node.js, Express.js
